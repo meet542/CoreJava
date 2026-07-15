@@ -1,4 +1,4 @@
-package com.rays.oop.inheritance;
+package com.rays.oop.inheritance.shape;
 
 public class Circle extends Shapes{
 	

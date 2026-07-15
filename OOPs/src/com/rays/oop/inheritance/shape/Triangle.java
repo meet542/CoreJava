@@ -1,4 +1,4 @@
-package com.rays.oop.inheritance;
+package com.rays.oop.inheritance.shape;
 
 public class Triangle extends Shapes{
 	private double height;

@@ -1,6 +1,6 @@
-package com.rays.oop.inheritance;
+package com.rays.oop.inheritance.bank;
 
-public class ICICIBank extends Bank{
+public class AxisBank extends Bank{
 	protected float interestRate;
 	protected String getName;
 	

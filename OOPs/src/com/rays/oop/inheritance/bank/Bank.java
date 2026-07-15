@@ -1,4 +1,4 @@
-package com.rays.oop.inheritance;
+package com.rays.oop.inheritance.bank;
 
 public class Bank {
 	protected float interestRate;
