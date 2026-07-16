@@ -2,7 +2,7 @@ package com.rays.oop.inheritance.bank;
 
 public class ICICIBank extends Bank{
 	protected float interestRate;
-	protected String getName;
+	protected String name;
 	
 	public float getInterestRate() {
 		return interestRate;
@@ -10,10 +10,10 @@ public class ICICIBank extends Bank{
 	public void setInterestRate(float interestRate) {
 		this.interestRate = interestRate;
 	}
-	public String getGetName() {
-		return getName;
+	public String getName() {
+		return name;
 	}
-	public void setGetName(String getName) {
-		this.getName = getName;
+	public void setName(String getName) {
+		this.name = getName;
 	}
 }
