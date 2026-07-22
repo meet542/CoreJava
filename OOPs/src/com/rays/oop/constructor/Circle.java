@@ -12,7 +12,6 @@ public class Circle extends Shape{
 		super(color);
 	}
 	
-	
 	public Circle(String color, int borderWidth, double radius) {
 		super(color,borderWidth);
 		this.radius = radius;
@@ -20,6 +19,8 @@ public class Circle extends Shape{
 	
 	public static void main(String[] args) {
 		Circle c = new Circle();
+	
+		
 	}
 	
 }
