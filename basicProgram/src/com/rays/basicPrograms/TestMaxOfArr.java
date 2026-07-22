@@ -1,15 +1,16 @@
 package com.rays.basicPrograms;
-public class TestSmallestOfArr {
+
+public class TestMaxOfArr {
 	public static void main(String[] args) {
 		int[] arr = { -1, 20, 46, -32, 72, 89, 49, 0, 55 };
-		int min = arr[0];
+		int max = arr[0];
 
 		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] < min) {
-				min = arr[i];
+			if (arr[i] > max) {
+				max = arr[i];
 			}
 		}
-		System.out.println(min);
+		System.out.println(max);
 	}
 
 }
