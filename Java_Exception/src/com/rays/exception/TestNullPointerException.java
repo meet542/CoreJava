@@ -12,7 +12,7 @@ public class TestNullPointerException {
 			
 		} catch (Exception e) {
 			
-//			System.out.println("Exeption : " + e.getMessage());
+//			System.out.println("Exception : " + e.getMessage());
 			e.printStackTrace();
 			
 		}

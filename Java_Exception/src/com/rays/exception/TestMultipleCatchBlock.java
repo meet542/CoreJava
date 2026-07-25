@@ -4,8 +4,8 @@ public class TestMultipleCatchBlock {
 
 	public static void main(String[] args) {
 
-		String name = null;
-		//String name = "Rahul";
+		//String name = null;
+		String name = "Rahul";
 
 		try {
 
