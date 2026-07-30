@@ -12,7 +12,7 @@ public class Student {
 		this.subject = subject;
 	}
 	
-	@Override
+	@Override // this method is present in object class and overriden here
 	public String toString() {
 		return "Name : " + name + ", Roll No. : " + rollNo + ", Subject : " + subject;
 	}

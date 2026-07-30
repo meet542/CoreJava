@@ -39,7 +39,9 @@ public class TestList {
 		System.out.println(list.lastIndexOf("Ram"));
 
 		System.out.println("----------------------------------------------------------");
+		
 		System.out.println("Sublist : ");
+//		subList(fromIndex, toIndex) - return sublist inclusive fromIndex and exclusive toIndex
 		System.out.println(list.subList(4, 6));
 
 //		list.add("Ram");

@@ -12,7 +12,7 @@ public class TestSortedSet {
 
 		public static void main(String[] args) {
 
-			SortedSet s = new TreeSet();
+			SortedSet<Character> s = new TreeSet<Character>();
 
 			s.add('c');
 			s.add('b');
@@ -21,7 +21,26 @@ public class TestSortedSet {
 			s.add('b');
 			s.add('a');
 
-			System.out.println("Set : " + s);
+			for(Object object : s) {
+				System.out.print(object);
+			}
+			System.out.println();
+			System.out.println("---------------");
+			
+			//get first element
+			System.out.println("First element : " + s.first());
+			
+			//get last element
+			System.out.println("Last element : " + s.last());
+			
+			//set head value
+			System.out.println(s.headSet('x'));
+			
+			//set tail value
+			System.out.println(s.tailSet('z'));
+			
+			System.out.println(s);
+			
 
 		}
 
