@@ -1,4 +1,4 @@
-package com.rays.collection.sort;
+package com.rays.collection.sort.comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

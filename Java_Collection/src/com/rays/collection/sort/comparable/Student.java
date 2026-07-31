@@ -1,6 +1,4 @@
-package com.rays.collection.sort;
-
-import java.util.List;
+package com.rays.collection.sort.comparable;
 
 public class Student implements Comparable<Student>{
 	

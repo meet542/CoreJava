@@ -1,4 +1,4 @@
-package com.rays.collection.sort;
+package com.rays.collection.sort.comparable;
 
 public class Employee implements Comparable<Employee>{
 	
