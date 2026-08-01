@@ -6,6 +6,9 @@ import java.util.Set;
 public class TestSet {
 
 	public static void main(String[] args) {
+		
+		// imp ** Set interface does not declare any additional methods ,all methods are inherit from collection interface
+		// key implementation classes are HashSet and TreeSet
 
 		Set s = new HashSet();
 
