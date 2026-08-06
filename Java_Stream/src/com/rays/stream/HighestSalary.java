@@ -2,7 +2,7 @@ package com.rays.stream;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
+
 
 public class HighestSalary {
 	public static void main(String[] args) {

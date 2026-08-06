@@ -44,7 +44,7 @@ public class TestStream {
 		list.stream().sorted(Comparator.reverseOrder()).distinct().forEach(System.out::println);
 		System.out.println();
 		
-		System.out.println("-----map method------");
+		System.out.println("-----map method------"); // String integer
 		System.out.println("To lowercase:");
 		System.out.println();
 		list.stream().map(e -> e.toLowerCase()).forEach(System.out::println);
@@ -76,7 +76,7 @@ public class TestStream {
 		System.out.println();
 		
 		
-		System.out.println("-----filter method-----");
+		System.out.println("-----filter method-----");// boolean
 		System.out.println("Start with 'K' and unique:");
 		System.out.println();
 		list.stream().filter(e -> e.startsWith("K")).distinct().forEach(System.out::println);
